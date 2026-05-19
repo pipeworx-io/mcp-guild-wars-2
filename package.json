@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-guild-wars-2",
+  "version": "0.1.0",
+  "description": "Guild Wars 2 keyless public endpoints (worlds, items, achievements, build, commerce).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "guild-wars-2"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-guild-wars-2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
